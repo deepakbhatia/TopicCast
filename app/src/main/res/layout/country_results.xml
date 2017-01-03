@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    >
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/country_results_toolbar"
+        android:layout_height="?attr/actionBarSize"
+        android:minHeight="?attr/actionBarSize"
+        android:layout_width="match_parent"
+        android:background="@color/colorPrimary"
+
+        />
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/country_results_recycler_view"
+        android:layout_below="@+id/country_results_toolbar"
+        android:scrollbars="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:paddingTop="8dp"
+        android:clipToPadding="false"
+        />
+    <TextView
+        android:id="@+id/empty_view"
+        android:layout_below="@+id/country_results_toolbar"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:visibility="gone"
+        android:background="@android:color/white"
+        android:textSize="32dp"
+        android:text="@string/no_data_available" />
+    <Button
+        android:id="@+id/suggested_articles"
+        android:layout_alignParentBottom="true"
+        android:text="Related Articles"
+        android:textSize="@dimen/textSize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_state"/>
+    </RelativeLayout>

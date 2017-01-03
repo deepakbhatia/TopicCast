@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">TopicCast</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_hide">Hide</string>
+    <string name="action_anchor_enable">Show</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="suggested_content">Suggested Content</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_explore">ExploreActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="ready_questions">Ready Questions</string>
+    <string name="customize_questions">Customize</string>
+    <string name="information">Help/Hint</string>
+    <string name="no_data_available">No Results for your query</string>
+    <string name="no_articles_data_available">No Articles Found for the topic</string>
+</resources>

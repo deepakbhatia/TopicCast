@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    >
+
+    <TextView
+        android:id="@+id/title_variable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingTop="@dimen/activity_horizontal_margin"
+        android:paddingBottom="@dimen/activity_horizontal_margin"
+        android:textSize="@dimen/textSize_dropdown"
+        android:textColor="@color/primaryText"
+        android:typeface="monospace"
+        />
+    <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_below="@+id/title_variable">
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical">
+
+           <com.wefika.flowlayout.FlowLayout
+               android:id="@+id/flow"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:gravity="start|top"
+               android:minHeight="50dp">
+
+
+           </com.wefika.flowlayout.FlowLayout>
+
+
+       </LinearLayout>
+
+   </ScrollView>
+
+</RelativeLayout>

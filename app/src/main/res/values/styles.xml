@@ -1,0 +1,36 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!--<item name="windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>-->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:textColor">@color/primaryText</item>
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+
+    <style name="ActionBar" parent="ThemeOverlay.AppCompat.ActionBar">
+        <item name="android:displayOptions">homeAsUp</item>
+    </style>
+
+    <style name="ProgressBarArticle" parent="Widget.AppCompat.ProgressBar.Horizontal">
+        <item name="colorPrimary">@android:color/white</item>
+    </style>
+
+    <style name="spinner_style" parent="@android:style/Widget.Holo.Light.Spinner">
+
+        <item name="android:textColor">#000</item>
+        <item name="android:dividerHeight">3dp</item>
+        <item name="android:divider">@drawable/line_divider</item>
+
+    </style>
+</resources>
